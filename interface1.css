@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;;
+    box-sizing: border-box;
+}
+
+/* Section 1 */
+
+
+.countainer-card {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 32px 0px 64px 0px ;
+}
+.countainer-card .card {
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(40, 40, 40, 0.15);
+    border-radius: 10px; 
+    padding: 16px;
+    width: 305px;
+}
+.card h4 {
+    margin: 22px 0px 32px 0px;
+}
+.card  .information-job {
+    font-size: 12px;
+    
+}
+.card .information-job span ,.card .viewer {
+    color: #938C8C;
+}
+.card .information-job p{
+    margin: 18px 0px;
+}
+.card .title-image   {
+    font-size: 10px; 
+    margin : 0px 10px;
+}
+.card  .viewer {
+    font-size: 8px;
+}
+.parent-image {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.span-image-card {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.act-cir {
+    position: relative ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.act-cir p {
+    font-size: 8px;
+}
+.card .active{
+    font-size: 8px;
+    color: #71AA27;
+    margin-left: 8px;
+}
+.card .circle{
+    background-color: #71AA27;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    position: absolute;
+    top: 4px;
+    
+}
+.button-information {
+    width: 92%;
+    margin-top: 32px;
+    position: relative;
+    left: 5%;
+}

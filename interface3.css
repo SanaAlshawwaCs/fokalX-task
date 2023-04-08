@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;;
+    box-sizing: border-box;
+}
+
+.top{
+    margin-top: 42px;
+    text-align: center;
+}
+.imag-svg{
+    width: 92px;
+    height: 92px;
+}
+
+.companies{
+    margin-top: 32px;
+    margin-bottom: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 86px;
+}
+
+.companies p{
+    text-align: center;
+    margin-top: 18px;
+}
+
+.material-symbols-outlined{
+    display: flex;
+    align-items: center;
+    color: #938C8C;
+}
+

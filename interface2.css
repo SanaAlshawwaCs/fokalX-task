@@ -1,0 +1,14 @@
+.information-job p {
+    display: inline-block;
+    width: 40%;
+}
+.card .information-job p {
+    margin: 10px 0px 0px 0px;
+}
+.countainer-card .card{
+    padding-right: 0px;
+}
+.button-information{
+    width: 70%;
+    left: 10%;
+}
